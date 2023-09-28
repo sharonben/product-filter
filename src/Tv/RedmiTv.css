@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img{
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+}
+.redmitv-container{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.right2-section{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.mrp{
+    display: flex;
+}
+.price2{
+    margin-left: 10px;
+    color: crimson;
+}
+.specs-container{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.specs-container>ul>li{
+    margin: 6px;
+}
+.buy-btn{
+    height: 40px;
+    width: 140px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    padding-top: 7px;
+    margin-left: 25px;
+    margin-top: 16px;
+    background-color: blueviolet;
+    cursor: pointer;
+    
+}
